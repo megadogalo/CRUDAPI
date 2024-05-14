@@ -80,7 +80,7 @@ app.post('/product', async(req, res) => {
     }
 })
 
-mongoose.connect('mongodb+srv://cybercrud:galogoat2k24@crudapi.brexdir.mongodb.net/CRUDAPI?retryWrites=true&w=majority&appName=CRUDAPI')
+mongoose.connect('mongodb+srv://NAOEXISTO:NAOEXISTO@crudapi.brexdir.mongodb.net/CRUDAPI?retryWrites=true&w=majority&appName=CRUDAPI')
 .then(() =>{
 app.listen(3000, () => {
     console.log('a API esta rodando na porta 3000')
